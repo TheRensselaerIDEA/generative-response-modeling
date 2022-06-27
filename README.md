@@ -8,6 +8,10 @@ Follow this guide to:
 - Interact with our trained response generation models
 - Import our COVID-19 and Vaccines public health tweet datasets and run the model evaluation from the paper
 
+Our models are also available on the HuggingFace model hub:
+- COVID-19: [TheRensselaerIDEA/gpt2-large-covid-tweet-response](https://huggingface.co/TheRensselaerIDEA/gpt2-large-covid-tweet-response)
+- Vaccines: [TheRensselaerIDEA/gpt2-large-vaccine-tweet-response](https://huggingface.co/TheRensselaerIDEA/gpt2-large-vaccine-tweet-response)
+
 ## 1. Setup
 ### 1.1 Clone or download this repository & install Python dependencies
 We recommend creating an environment with Python 3.7 or greater. 
