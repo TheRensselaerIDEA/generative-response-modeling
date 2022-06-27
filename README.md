@@ -52,8 +52,12 @@ We re-use the tweet collection pipeline from our [previous paper](https://www.nc
 - [Section 2.3](https://github.com/TheRensselaerIDEA/COVID-masks-nlp/blob/master/README.md#23-compute-embeddings-and-sentiment-scores-for-the-imported-tweets) to pre-process the tweets (compute embeddings and sentiment scores).
 
 Importantly, use the following modifications to the original instructions:
-  - In 2.2.1  and 2.3 use `"elasticsearch_index_name": "covid19-pubhealth-responses"` for the COVID-19 dataset and `"elasticsearch_index_name": "vaccine-pubhealth-responses"` for the Vaccines dataset.
-  - In 2.2.2 use `--datasetglob=./../tweet_ids/covid19/*/*.txt` for the COVID-19 dataset and `--datasetglob=./../tweet_ids/vaccine/*/*.txt` for the Vaccines dataset.
+  - In sections 2.2.1 and 2.3 use:
+    - `"elasticsearch_index_name": "covid19-pubhealth-responses"` for the COVID-19 dataset
+    - `"elasticsearch_index_name": "vaccine-pubhealth-responses"` for the Vaccines dataset
+  - In section 2.2.2 use:
+    - `--datasetglob=./../tweet_ids/covid19/*/*.txt` for the COVID-19 dataset
+    - `--datasetglob=./../tweet_ids/vaccine/*/*.txt` for the Vaccines dataset
 
 ## 4. Run the evaluation notebook
 Open [analysis/model_eval.Rmd](analysis/model_eval.Rmd) in a [knitr](https://yihui.org/knitr/) enabled R environment. We recommend using [RStudio](https://rstudio.com/).
