@@ -60,8 +60,14 @@ Open [analysis/model_eval.Rmd](analysis/model_eval.Rmd) in a [knitr](https://yih
 
 Knit or run the notebook to sample responses and evaluate the baselines \& model as described in the paper.
 Specifically:
-- For the COVID-19 dataset, set `elasticsearch_index <- "covid19-pubhealth-responses"`, set `rangestart <- "2020-03-01 00:00:00"`, and set `rangeend <- "2020-10-01 00:00:00"`.
-- For the Vaccines dataset, set `elasticsearch_index <- "vaccine-pubhealth-responses"`, set `rangestart <- "2021-10-01 00:00:00"`, and set `rangeend <- "2022-02-01 00:00:00"`.
+- For the COVID-19 dataset, set:
+  - `elasticsearch_index <- "covid19-pubhealth-responses"`
+  - `rangestart <- "2020-03-01 00:00:00"`
+  - `rangeend <- "2020-10-01 00:00:00"`
+- For the Vaccines dataset, set:
+  - `elasticsearch_index <- "vaccine-pubhealth-responses"`
+  - `rangestart <- "2021-10-01 00:00:00"`
+  - `rangeend <- "2022-02-01 00:00:00"`
 
 # Reference
 If you use our data, models, or code in your work, please cite:
