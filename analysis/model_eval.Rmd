@@ -76,12 +76,12 @@ sentiment_type <- "roberta"
 
 ```{r}
 # query start date/time (inclusive)
-#rangestart <- "2020-03-01 00:00:00"
-rangestart <- "2021-10-01 00:00:00"
+rangestart <- "2020-03-01 00:00:00"
+#rangestart <- "2021-10-01 00:00:00"
   
 # query end date/time (exclusive)
-#rangeend <- "2020-10-01 00:00:00"
-rangeend <- "2022-02-01 00:00:00"
+rangeend <- "2020-10-01 00:00:00"
+#rangeend <- "2022-02-01 00:00:00"
 
 # Size of test set - max number of original tweets for which we want to compare response distributions
 #resultsize <- 200
